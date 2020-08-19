@@ -1,0 +1,57 @@
+{
+  "name": "@builder.io/example-react",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Builder.io example with React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/builderio/builder.git"
+  },
+  "keywords": [
+    "builder.io",
+    "react"
+  ],
+  "author": "Steve Sewell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/builderio/builder/issues"
+  },
+  "homepage": "https://github.com/builderio/builder#readme",
+  "main": "src/index.js",
+  "dependencies": {
+    "@builder.io/react": "^1.1.25",
+    "@builder.io/storybook": "0.0.3",
+    "@storybook/react": "6.0.12",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
